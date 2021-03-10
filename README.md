@@ -15,6 +15,8 @@ y luego Ejecutar como administrador
 
 TO-DO
 
+quizas habría q pasar todo a bitbucket !!!!
+
 bajar link ninite o ... con todos los programas
 
 off 2k10 y off 2k13
