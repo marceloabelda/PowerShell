@@ -12,3 +12,18 @@ mkdir c:\drivers; curl -o c:\drivers\fullinstall.ps1 https://raw.githubuserconte
 
 y luego Ejecutar como administrador
 
+
+TO-DO
+
+bajar link ninite o ... con todos los programas
+
+off 2k10 y off 2k13
+
+toolkit 
+
+subir todo a s3
+
+
+agregar los links de descargas al ps1
+
+
