@@ -18,13 +18,15 @@ if ($res -eq "y"){
 }
 
 
-$off2010 = new-object System.Net.WebClient
-$off2010.DownloadFile("https://jost-publico.s3.amazonaws.com/Office_2010.zip", "c:\drivers")
+$cli = New-Object System.Net.WebClient;
+$cli.Headers['User-Agent'] = 'JOST';
+$cli.DownloadFile('https://jost-publico.s3.amazonaws.com/Office_2010.zip', 'c:\drivers');
 
 
-Expand-Archive -LiteralPath "c:\drivers\office_2010.zip" -DestinationPath "c:\drivers"
+
+
+Expand-Archive -LiteralPath 'c:\drivers\office_2010.zip' -DestinationPath 'c:\drivers';
 
 
 
-$mstool = new-object System.Net.WebClient
-$mstool.DownloadFile("https://jost-publico.s3.amazonaws.com/Microsoft_toolkit.exe", "c:\drivers")
+$cli.DownloadFile('https://jost-publico.s3.amazonaws.com/Microsoft_Toolkit.exe', 'c:\drivers')
