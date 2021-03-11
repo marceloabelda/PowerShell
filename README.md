@@ -15,6 +15,11 @@ y luego Ejecutar como administrador
 
 TO-DO
 
+
+
+https://blog.jourdant.me/post/3-ways-to-download-files-with-powershell
+
+
 quizas habría q pasar todo a bitbucket !!!!
 
 bajar link ninite o ... con todos los programas
